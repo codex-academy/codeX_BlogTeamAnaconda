@@ -1,0 +1,236 @@
+.navigation {
+	      height:7%;
+	     background:#04B404;
+	      padding-left:100px; 
+	      padding-top:2px;
+	      margin-right:250px;
+	      width:87.5%;
+	      opacity:.9;
+
+            }
+
+.navigation a{
+		font-size:20px;
+		font-family:"Ubuntu Mono";
+		text-decoration:none;
+		font-weight:900;
+		color:white;
+		opacity:.5;
+		transition
+	      }
+.navigation img:hover{transform:scale(1.2);}
+
+
+body {
+	margin-left:25px;
+	margin-right:460px;
+	background:url(ana2.jpg) no-repeat center center fixed;
+	background-size:cover;
+	color:black;
+     }
+
+.bodyPic{
+	background:url(GroupPic2.jpg) ;
+	background-size:cover;
+	
+	width:33%;
+	height:47%;
+	position:absolute;
+	margin-left:825px;
+	margin-top:-640px;
+	
+	border:3px solid green;
+	
+	animation-iteration-count:10;}
+
+
+.bodyPic:hover > #caption{
+		transform:translateY(-45px);
+		opacity:.7;
+		font-size:20px;
+		
+		height:25%
+		}
+
+#caption{color:white;
+	 opacity:.1;
+	 position:relative;
+         overflow:none;
+	 margin-top:65%;
+	 background:url(cap.jpg);
+	font-family:"Ubuntu Mono";
+	 width:100%;
+	 height:12%;
+	
+	transition-property:all;
+	transition-duration:.5s;
+	transition-timing-function:linear;
+	}
+
+		
+#caption p{padding:20px;}
+#content {
+	height:850px;
+	background-color:#64FE2E;
+	border:2px solid green;
+	opacity:0.60;
+	}
+
+
+.MainParagraph{ 
+		position:relative;
+		padding-left:5px;
+		opacity:.9;
+		background:url(codeL.jpg) no-repeat;
+		background-size:cover;
+	       }
+
+
+
+.text{	margin-top:-20px;
+	color:black;
+	font-size:19px;
+	font-family:"Dejavu Sans";
+	padding:12px;
+	background-color:#64FE2E;}
+
+
+#logo {
+ 	background-color: white;
+  	bottom: 0;
+  	position: fixed;
+  	height: 0;
+  	width: 200px;
+  	z-index: 9999;
+}
+
+#buttons{
+	float:right;
+	 
+	width:25%;
+	height:10%;
+	transition-property:all;
+	transition-duration:1s;
+	transition-timing-function:linear;
+	opacity:.9;
+   }
+
+
+#buttons a img:hover{
+			opacity:1;
+			transform:scale(1.1);
+		   }
+
+
+
+
+.footer{
+	border : 2px solid green; 
+	font-family:"Tahoma";
+	margin-top:-2px;
+	padding-top:50px;
+	padding-left:30px;
+	background:url(codex3.jpg);
+	background-size:cover;
+	opacity:.65;
+	color:green;
+	height:120px;
+	width:96%;	
+}
+
+	
+
+
+
+
+
+/*                    PLEASE NOTE                               */
+/* The following CSS is for the Animated CodeX bouncing Picture*/
+
+
+
+.loader{
+
+width:100%;
+height:100%;
+top:0px;
+left:0px;
+padding-left:800px;
+margin-top:-128px;
+}
+.loader h1{
+	   color:white;
+	   font-family:'Ubuntu Mono';
+           padding-left:100px;
+           font-size:54px;
+           font-weight:heavy;
+	   position:fixed;
+	}
+.loader p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 40px;
+    margin: 50px auto;
+    background: url(aya.jpg) center;
+    background-size:cover;
+    border:3px solid #BFFF00;
+    border-radius: 870px;
+    -webkit-animation: loader 0.9s infinite alternate;
+    -moz-animation: loader 0.9s infinite alternate;
+}
+
+.loader p:nth-of-type(2) {
+     background:url(oyama.jpg);
+     background-size:cover;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+}
+.loader p:nth-of-type(3) {
+     background:url(codex.png);
+     background-size:cover;
+     transform:scale(1.2);
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;}
+
+.loader p:nth-of-type(4) {
+     background:url(Sannie1.jpg);
+     background-size:cover;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;}
+
+.loader p:nth-of-type(5) {
+     background:url(lindani.jpg);
+     background-size:cover;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;}
+
+@keyframes loader {
+  0% {
+    width: 60px;
+    height: 40px;
+    
+     border:3px solid #BFFF00;
+     background:url(codex.png)center;
+    transform: translateY(0px);
+  }
+  100% {
+    width: 80px;
+    height: 60px;
+    
+    transform: translateY(21px);
+    
+    border:3px solid white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+	

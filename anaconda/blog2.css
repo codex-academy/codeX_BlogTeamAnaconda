@@ -1,0 +1,21 @@
+.content{ width:70%;
+	  height:100%;
+          margin-left:25%;
+	  background:green;
+          opacity:.8;
+          border:1px solid white;
+	  position:absolute;
+	}
+
+
+.Pictures{ width:10%;
+	  height:10%;
+	  background:white;
+	  border:1px solid green;
+	  opacity:0.8;
+}
+
+.Pictures img { width:10%;
+	  width : 220px;
+		
+}

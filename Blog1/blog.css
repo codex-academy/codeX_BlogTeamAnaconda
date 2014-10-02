@@ -1,0 +1,42 @@
+.navigation {
+	      height:5%;
+	      background-color:#31B404;
+	      padding-left:190px; 
+	      padding-top:6px;
+	      margin-right:490px;
+	      
+
+            }
+
+.navigation a{
+		font-size:20px;
+		font-family:"Ubuntu Mono";
+		text-decoration:none;
+		font-weight:900;
+		color:white;
+		
+	      }
+
+
+
+body {
+	margin-left:309px;
+	background:url(ana2.jpg) no-repeat center center fixed;
+	background-size:cover;
+	color:black;
+     }
+
+.MainParagraph{
+		padding-left:5px;
+		opacity:.6;
+		background-color:white;
+	       }
+.text{	color:black;
+	font-size:19px;
+	font-family:"Dejavu Sans";
+	padding:12px;
+	opacity:.75;
+	background-color:#64FE2E;}
+
+
+	

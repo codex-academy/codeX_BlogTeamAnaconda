@@ -1,0 +1,56 @@
+﻿<html>     
+  
+<head>
+
+
+<title> Blog1 </title>
+
+
+<link rel="Stylesheet" type="text/css" href="blog.css"> </head>
+
+
+
+
+
+
+
+
+
+<div class="Navigation">
+
+
+
+        <a href="#">   Home &nbsp </a> 
+        <a href="#">   The Team &nbsp</a>       
+
+
+</div>
+
+
+
+<body>
+
+<div class="MainParagraph">
+<h1> WHY ARE WE AT CODE <span STYLE="font-size:70px; color:#40FF00">X</span> ?</h1>
+</div>
+
+<div class="text">
+<p>
+
+	
+
+
+
+        
+ </p>       
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
